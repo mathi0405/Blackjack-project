@@ -5,6 +5,18 @@ A simple, text-based Blackjack game implemented in Python. This command-line gam
 
 This project is a basic implementation of the popular card game Blackjack, also known as 21. The game is designed to be played in the terminal or command prompt, making it an easy and fun way to practice Python programming concepts such as functions, loops, conditionals, and list operations.
 
+Our Blackjack Game House Rules
+The deck is unlimited in size.
+There are no jokers.
+The Jack/Queen/King all count as 10.
+The Ace can count as 11 or 1.
+Use the following list as the deck of cards:
+cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+
+The cards in the list have equal probability of being drawn.
+Cards are not removed from the deck as they are drawn.
+The computer is the dealer.
+
 ## Features
 
 - **Random Card Dealing:** Cards are dealt randomly from a standard deck.
